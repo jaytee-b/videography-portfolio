@@ -1,8 +1,7 @@
 export const Home = () => {
   return (
-    <div className="relative">
+    <div id="home" className="relative">
       <section
-        id="#home"
         className=" flex flex-col items-center justify-center relative min-h-screen
         "
       >
@@ -27,20 +26,30 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section id="#home" className="flex justify-center relative ">
-        <div className="-mt-[80px] flex items-center justify-center">
-          <div className="border border-[#1A2F2C] max-w-3xl mx-auto px-4 flex justify-between items-center ">
-            <div>
-              <h4>Recent Works</h4>
-              <h1>Valentine’s Campaign</h1>
-              <p>A valentine’s themed campaign for Brags.ng</p>
-              <a href="">View Project</a>
-            </div>
-            <div>
-              <img src="images/recent-project.png" alt="" />
-            </div>
-          </div>
+      {/* Recent works section */}
+      <section className="-mt-[140px] flex flex-col items-center justify-center ">
+        <div className="flex justify-between items-center  w-full px-8 mb-8">
+          <h5 className="w-1/4 md:text-sm text-xs">RECENT WORK</h5>
+          <div className="w-3/4 bg-[#303130] h-[1px] "></div>
         </div>
+        <a
+          href="#home"
+          className="relative cursor-pointer transition relative overflow-hidden hover:translate-y-0.5"
+        >
+          <img src="images/brags1.png" className="w-full " alt="" />
+          <div className="absolute bottom-8 left-8 text-gray-100">
+            <h2 className="text-2xl font-bold pb-2">Valentine’s Campaign</h2>
+            <h3 className="pb-4 text-sm">
+              A valentine’s themed campaign for Brags.ng
+            </h3>
+          </div>
+        </a>
+        <a
+          href=""
+          className="text-black rounded px-[24px] py-[12px] bg-[#22CD6E] font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] mt-[24px]"
+        >
+          View Project →
+        </a>
       </section>
     </div>
   );
