@@ -1,10 +1,14 @@
+import { RevealOnScroll } from "../RevealOnScroll";
+
 export const Home = () => {
   return (
     <div id="home" className="relative">
+      <RevealOnScroll>
       <section
         className=" flex flex-col items-center justify-center relative min-h-screen
         "
       >
+        
         <div className="text-center z-10 px-4">
           <h1 className="text-2xl md:text-[40px] font-bold mb-6">
             Capturing Emotions, Building Brands
@@ -51,6 +55,7 @@ export const Home = () => {
           View Project →
         </a>
       </section>
+      </RevealOnScroll>
     </div>
   );
 };

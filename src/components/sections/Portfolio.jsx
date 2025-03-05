@@ -1,6 +1,9 @@
+import { RevealOnScroll } from "../RevealOnScroll";
+
 export const Portfolio = () => {
   return (
     <section id="portfolio" className="min-h-screen">
+      <RevealOnScroll>
       <div className="flex justify-between items-center  w-full px-8 mb-8">
         <h5 className="w-1/4 md:text-sm text-xs">SELECTED WORKS</h5>
         <div className="w-3/4 bg-[#303130] h-[1px] "></div>
@@ -80,6 +83,7 @@ export const Portfolio = () => {
           </div>
         </div>
       </div>
+      </RevealOnScroll>
     </section>
   );
 };
