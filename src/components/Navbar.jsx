@@ -1,5 +1,5 @@
 /* eslint-disable */
-
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
 export const Navbar = ({menuOpen, setMenuOpen}) => {
@@ -21,18 +21,13 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
           </div>
           {/* desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="#home"
+            <Link
+              to="/"
               className="text-gray-300 hover:text-white hover:border-b hover:border-[#22CD6E]"
             >
               HOME
-            </a>
-            <a
-              href="#portfolio"
-              className="text-gray-300 hover:text-white hover:border-b hover:border-[#22CD6E] hover:border-b-2"
-            >
-              PORTFOLIO
-            </a>
+            </Link>
+            
             <a
               href="#about"
               className="text-gray-300 hover:text-white hover:border-b hover:border-[#22CD6E]"
@@ -45,6 +40,12 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
             >
               CONTACT
             </a>
+            <Link
+              to="/portfolio"
+              className="text-gray-300 hover:text-white hover:border-b hover:border-[#22CD6E]"
+            >
+              PORTFOLIO
+            </Link>
           </div>
         </div>
       </div>

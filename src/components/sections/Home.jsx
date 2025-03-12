@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Home = () => {
@@ -21,12 +22,12 @@ export const Home = () => {
             video production.{" "}
           </p>
           <div className="flex items-center justify-center mt-[24px]">
-            <a
-              href="#projects"
+            <Link
+              to="/portfolio"
               className="text-black rounded px-[24px] py-[12px] bg-[#22CD6E] font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] "
             >
               View Projects
-            </a>
+            </Link>
           </div>
         </div>
       </section>
