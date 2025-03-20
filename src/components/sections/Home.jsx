@@ -89,7 +89,7 @@ export const Home = () => {
         </section>
 
         
-        <section id="contact" className="min-h-screen -mt-[400px]">
+        <section id="contact" className="min-h-screen -mt-[420px]">
           <Contact />
           </section>
 
