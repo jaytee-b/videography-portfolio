@@ -5,11 +5,12 @@ export const Portfolio = () => {
 
   const portfolioItems = [
     {
-      imgSrc: "images/burger1.png",
-      title: "Killz Bites",
-      subtitle: "Instagram Ads Campaign Photo shoot",
-      galleryId: 0
+      imgSrc: "images/Sequence 3.jpg",
+      title: "Zlatan's concert '24",
+      subtitle: "Concert videography",
+      videoId: "Jw94N64n138"
     },
+    
     {
       imgSrc: "images/feyi.png",
       title: "Brags.ng",
@@ -29,11 +30,12 @@ export const Portfolio = () => {
       igUrl: "https://www.instagram.com/reel/DBgTzuqNvm0/?igsh=YmZ3ZTJzaXhhaWdq"
     },
     {
-      imgSrc: "images/Sequence 3.jpg",
-      title: "Brag.ng",
-      subtitle: "Ads Campaign",
-      videoId: "Jw94N64n138"
-    },
+      imgSrc: "images/burger1.png",
+      title: "Killz Bites",
+      subtitle: "Instagram Ads Campaign Photo shoot",
+      galleryId: 0
+    }
+    ,
     {
       imgSrc: "images/rita.JPG",
       title: "Graduation '25",

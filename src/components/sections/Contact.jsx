@@ -30,7 +30,7 @@ export const Contact = () => {
     >
         
       <div className="px-4 w-150">
-        <h2 className="text-2xl md:text-[40px] font-bold mb-6 text-center">
+        <h2 className="text-2xl md:text-[30px] font-bold mb-6 text-center">
           {" "}
           Get in Touch
         </h2>

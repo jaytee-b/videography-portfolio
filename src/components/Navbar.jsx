@@ -15,7 +15,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
           </a>
 
           {/* mobile menu */}
-          <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
+          <div className="w-9 h-7 relative cursor-pointer z-40 text-2xl md:hidden"
           onClick={()=>setMenuOpen((prev) => !prev)}>
             &#9776;
           </div>

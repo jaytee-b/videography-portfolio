@@ -18,17 +18,17 @@ export const About = () => {
 
         <div className="flex space-x-10 mt-20 px-20 py-4">
           <div className="flex flex-col text-gray-500 md:text-start text-center pr-4 border-r items-center">
-            <h1 className="font-mono md:text-7xl text-2xl font-serif">2+</h1>
+            <h1 className=" md:text-7xl text-2xl font-serif">2+</h1>
             <p className="text-xs">Years of experience</p>
           </div>
 
           <div className="flex flex-col text-gray-500 items-center">
-            <h1 className="font-mono md:text-7xl text-2xl font-serif">10+</h1>
+            <h1 className=" md:text-7xl text-2xl font-serif">10+</h1>
             <p className="text-xs">Satisfied clients</p>
           </div>
 
           <div className="flex flex-col text-gray-500 items-center border-l pl-4">
-            <h1 className="font-mono md:text-7xl text-2xl font-serif">20+</h1>
+            <h1 className="md:text-7xl text-2xl font-serif">20+</h1>
             <p className="text-xs">Projects delivered</p>
           </div>
         </div>
