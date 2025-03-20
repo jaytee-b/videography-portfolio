@@ -10,7 +10,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.2)] backdrop-blur-sm ">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-24">
-          <a href="" className=" text-xl font-bold text-white">
+          <a href="/" className=" text-xl font-bold text-white">
             INIOLUWA ADELEYE
           </a>
 
@@ -28,7 +28,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
               HOME
             </Link>
             
-            <a
+            {/* <a
               href="#about"
               className="text-gray-300 hover:text-white hover:border-b hover:border-[#22CD6E]"
             >
@@ -39,7 +39,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
               className="text-gray-300 hover:text-white hover:border-b hover:border-[#22CD6E]"
             >
               CONTACT
-            </a>
+            </a> */}
             <Link
               to="/portfolio"
               className="text-gray-300 hover:text-white hover:border-b hover:border-[#22CD6E]"
